@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://cdn.glitch.global/3c787937-9c9e-4f5d-ba60-5fc59b36d3af/gibbet.ico?v=1651853085172" />
+
+    <title>Hangman | Roger Mullins</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+    
+    <!-- Google Font Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Peralta&display=swap" rel="stylesheet">
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <!-- this is the start of content -->
+    <div class="centered">
+      <h1>Hangman</h1>
+    </div>
+    <div class="centered">
+      Try to guess the word before the picture is completed.
+      <br>
+      <button onclick="hangman()">Start!</button>
+    </div>
+    <div class="centered">
+      <canvas id="hangman" width="500vw" height="300vh">It appears your browser does not support the HTML canvas element.</canvas>
+    </div>
+    
+    <div class="centered word-area" id="word-area"></div>
+    
+    <div class="centered alphabet" id="alphabet"></div>
+    
+  </body>
+  <footer class="centered">
+    <h6>
+      Original HTML/CSS/JS &copy;2022 by <a href="mailto:rogermullins.mba@gmail.com">Roger Mullins</a><br>
+      Random Word Generator API at <a href="https://random-word-api.herokuapp.com/home">herokuapp.com</a><br>
+      <a href="https://www.flaticon.com/free-icons/hang" title="hang icons">Hang icons created by Freepik - Flaticon</a>
+    </h6>
+  </footer>
+</html>

@@ -1,0 +1,53 @@
+body {
+  background: #FFCB47;
+  color: #2E294E;
+  font-family: "Peralta", sans-serif;
+}
+
+a:link {
+  color: #D7263D;
+}
+
+a:visited {
+  color: #F46036;
+}
+
+canvas {
+  border: 1px solid #2E294E;
+  margin: 20px;
+}
+
+.centered {
+  text-align: center;
+}
+
+.alphabet {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
+.word-area {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  margin-left: 15vw;
+  margin-right: 15vw;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+.letter-box {
+  display: grid;
+  font-size: 2em;
+  border: 1pt solid #2E294E;
+  background: white;
+}
+
+.incorrect {
+  background: #D7263D;
+}
+
+.correct {
+  background: #1B998B;
+}
